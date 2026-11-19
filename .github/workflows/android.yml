@@ -1,56 +1,56 @@
 name: Android APK
 
-"on":
-workflow_dispatch:
-push:
-branches:
-- main
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
-contents: read
+  contents: read
 
 jobs:
-build:
-runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-steps:
-  - name: Checkout source
-    uses: actions/checkout@v4
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
 
-  - name: Extract project
-    run: |
-      unzip -q ashes_of_the_crown_android_v5.0.1.zip -d project
+      - name: Extract project
+        run: |
+          unzip -q ashes_of_the_crown_android_v5.0.1.zip -d project
 
-  - name: Fix Java version
-    run: |
-      sed -i 's/JavaVersion.VERSION_1_8/JavaVersion.VERSION_17/g' project/ashes_v2/app/build.gradle.kts
+      - name: Fix Java version
+        run: |
+          sed -i 's/JavaVersion.VERSION_1_8/JavaVersion.VERSION_17/g' project/ashes_v2/app/build.gradle.kts
 
-  - name: Set up JDK
-    uses: actions/setup-java@v4
-    with:
-      distribution: temurin
-      java-version: '17'
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
 
-  - name: Install Android SDK
-    run: |
-      SDKMANAGER=$(find "$ANDROID_HOME/cmdline-tools" -type f -name sdkmanager | head -n 1)
-      echo "SDKMANAGER=$SDKMANAGER"
-      yes | "$SDKMANAGER" --licenses || true
-      "$SDKMANAGER" "platforms;android-35" "build-tools;35.0.0"
+      - name: Install Android SDK
+        run: |
+          SDKMANAGER=$(find "$ANDROID_HOME/cmdline-tools" -type f -name sdkmanager | head -n 1)
+          echo "SDKMANAGER=$SDKMANAGER"
+          yes | "$SDKMANAGER" --licenses || true
+          "$SDKMANAGER" "platforms;android-35" "build-tools;35.0.0"
 
-  - name: Set up Gradle
-    uses: gradle/actions/setup-gradle@v4
-    with:
-      gradle-version: '8.9'
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
 
-  - name: Build APK
-    run: |
-      cd project/ashes_v2
-      gradle --no-daemon :app:assembleDebug
+      - name: Build APK
+        run: |
+          cd project/ashes_v2
+          gradle --no-daemon :app:assembleDebug
 
-  - name: Upload APK
-    uses: actions/upload-artifact@v4
-    with:
-      name: ashes-of-the-crown-apk
-      path: project/ashes_v2/app/build/outputs/apk/debug/*.apk
-      if-no-files-found: error
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: ashes-of-the-crown-apk
+          path: project/ashes_v2/app/build/outputs/apk/debug/*.apk
+          if-no-files-found: error
