@@ -21,10 +21,23 @@ jobs:
         run: |
           unzip -q ashes_of_the_crown_android_v5.0.1.zip -d project
 
-      - name: Fix Java version
+      - name: Fix Java and Kotlin versions
         run: |
-          sed -i 's/JavaVersion.VERSION_1_8/JavaVersion.VERSION_17/g' project/ashes_v2/app/build.gradle.kts
+          cat >> project/ashes_v2/app/build.gradle.kts <<'EOF'
 
+          android {
+              compileOptions {
+                  sourceCompatibility = JavaVersion.VERSION_17
+                  targetCompatibility = JavaVersion.VERSION_17
+              }
+          }
+
+          tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
+              kotlinOptions {
+                  jvmTarget = "17"
+              }
+          }
+          EOF
       - name: Set up JDK
         uses: actions/setup-java@v4
         with:
