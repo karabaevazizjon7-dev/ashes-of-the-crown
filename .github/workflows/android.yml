@@ -11,13 +11,18 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout source
         uses: actions/checkout@v4
 
       - name: Combine and extract Alpha 27 project
         run: |
-          cat ashes_alpha27_part01.bin ashes_alpha27_part02.bin ashes_alpha27_part03.bin > ashes_alpha27.zip
+          cat ashes_alpha27_jvm17_part01.bin \
+              ashes_alpha27_jvm17_part02.bin \
+              ashes_alpha27_jvm17_part03.bin \
+              > ashes_alpha27.zip
+
           unzip -t ashes_alpha27.zip
           unzip -q ashes_alpha27.zip -d .
 
@@ -33,7 +38,8 @@ jobs:
           packages: platform-tools
 
       - name: Install Android platform and build tools
-        run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
+        run: |
+          sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
