@@ -17,9 +17,30 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v4
 
-      - name: Extract project
+      - name: Combine Alpha 25 archive
         run: |
+          cat ashes_alpha25_part01.bin \
+              ashes_alpha25_part02.bin \
+              ashes_alpha25_part03.bin \
+              > ashes_of_the_crown_android_v5.0.1.zip
+
+      - name: Check and extract project
+        run: |
+          unzip -t ashes_of_the_crown_android_v5.0.1.zip
+          mkdir -p project
           unzip -q ashes_of_the_crown_android_v5.0.1.zip -d project
+
+      - name: Check project structure
+        run: |
+          test -f project/ashes_v2/app/build.gradle.kts
+          test -f project/ashes_v2/settings.gradle.kts
+          echo "Project structure OK"
+
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
 
       - name: Fix Java and Kotlin versions
         run: |
@@ -38,11 +59,6 @@ jobs:
               }
           }
           EOF
-      - name: Set up JDK
-        uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: '17'
 
       - name: Install Android SDK
         run: |
@@ -67,3 +83,4 @@ jobs:
           name: ashes-of-the-crown-apk
           path: project/ashes_v2/app/build/outputs/apk/debug/*.apk
           if-no-files-found: error
+          retention-days: 14
