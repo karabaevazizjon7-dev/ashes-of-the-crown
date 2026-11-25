@@ -1,0 +1,1846 @@
+[
+  {
+    "resource_name": "story_drama_royal_confrontation",
+    "file": "story_drama_royal_confrontation.jpg",
+    "category": "story_drama",
+    "source_sheet": "a_cinematic_collage_with_six_medieval_fantasy_dram.png",
+    "panel": 1,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу story через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "story_drama_love_confession",
+    "file": "story_drama_love_confession.jpg",
+    "category": "story_drama",
+    "source_sheet": "a_cinematic_collage_with_six_medieval_fantasy_dram.png",
+    "panel": 2,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу story через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "story_drama_betrayal",
+    "file": "story_drama_betrayal.jpg",
+    "category": "story_drama",
+    "source_sheet": "a_cinematic_collage_with_six_medieval_fantasy_dram.png",
+    "panel": 3,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "story_drama_farewell_before_battle",
+    "file": "story_drama_farewell_before_battle.jpg",
+    "category": "story_drama",
+    "source_sheet": "a_cinematic_collage_with_six_medieval_fantasy_dram.png",
+    "panel": 4,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу story через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "story_drama_secret_meeting",
+    "file": "story_drama_secret_meeting.jpg",
+    "category": "story_drama",
+    "source_sheet": "a_cinematic_collage_with_six_medieval_fantasy_dram.png",
+    "panel": 5,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "story_drama_private_conversation",
+    "file": "story_drama_private_conversation.jpg",
+    "category": "story_drama",
+    "source_sheet": "a_cinematic_collage_with_six_medieval_fantasy_dram.png",
+    "panel": 6,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу story через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "character_concepts_king_concept",
+    "file": "character_concepts_king_concept.jpg",
+    "category": "character_concepts",
+    "source_sheet": "a_cinematic_fantasy_character_lineup_in_a_grand_me.png",
+    "panel": 1,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу hero через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "character_concepts_queen_concept",
+    "file": "character_concepts_queen_concept.jpg",
+    "category": "character_concepts",
+    "source_sheet": "a_cinematic_fantasy_character_lineup_in_a_grand_me.png",
+    "panel": 2,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу hero через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "character_concepts_heir_concept",
+    "file": "character_concepts_heir_concept.jpg",
+    "category": "character_concepts",
+    "source_sheet": "a_cinematic_fantasy_character_lineup_in_a_grand_me.png",
+    "panel": 3,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу hero через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "character_concepts_noblewoman_concept",
+    "file": "character_concepts_noblewoman_concept.jpg",
+    "category": "character_concepts",
+    "source_sheet": "a_cinematic_fantasy_character_lineup_in_a_grand_me.png",
+    "panel": 4,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу hero через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "character_concepts_knight_concept",
+    "file": "character_concepts_knight_concept.jpg",
+    "category": "character_concepts",
+    "source_sheet": "a_cinematic_fantasy_character_lineup_in_a_grand_me.png",
+    "panel": 5,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу hero через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "character_concepts_sorceress_concept",
+    "file": "character_concepts_sorceress_concept.jpg",
+    "category": "character_concepts",
+    "source_sheet": "a_cinematic_fantasy_character_lineup_in_a_grand_me.png",
+    "panel": 6,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу hero через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "dangerous_places_bandit_hideout",
+    "file": "dangerous_places_bandit_hideout.jpg",
+    "category": "dangerous_places",
+    "source_sheet": "a_cinematic_fantasy_game_art_collage_in_a_grid_of.png",
+    "panel": 1,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "dangerous_places_mercenary_camp",
+    "file": "dangerous_places_mercenary_camp.jpg",
+    "category": "dangerous_places",
+    "source_sheet": "a_cinematic_fantasy_game_art_collage_in_a_grid_of.png",
+    "panel": 2,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу frontier через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "dangerous_places_prison",
+    "file": "dangerous_places_prison.jpg",
+    "category": "dangerous_places",
+    "source_sheet": "a_cinematic_fantasy_game_art_collage_in_a_grid_of.png",
+    "panel": 3,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу frontier через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "dangerous_places_torture_chamber",
+    "file": "dangerous_places_torture_chamber.jpg",
+    "category": "dangerous_places",
+    "source_sheet": "a_cinematic_fantasy_game_art_collage_in_a_grid_of.png",
+    "panel": 4,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу frontier через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "dangerous_places_secret_passage",
+    "file": "dangerous_places_secret_passage.jpg",
+    "category": "dangerous_places",
+    "source_sheet": "a_cinematic_fantasy_game_art_collage_in_a_grid_of.png",
+    "panel": 5,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "dangerous_places_abandoned_mine",
+    "file": "dangerous_places_abandoned_mine.jpg",
+    "category": "dangerous_places",
+    "source_sheet": "a_cinematic_fantasy_game_art_collage_in_a_grid_of.png",
+    "panel": 6,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу frontier через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "warfare_army_muster",
+    "file": "warfare_army_muster.jpg",
+    "category": "warfare",
+    "source_sheet": "a_cinematic_fantasy_medieval_battle_montage_collag.png",
+    "panel": 1,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу battle через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "warfare_cavalry_charge",
+    "file": "warfare_cavalry_charge.jpg",
+    "category": "warfare",
+    "source_sheet": "a_cinematic_fantasy_medieval_battle_montage_collag.png",
+    "panel": 2,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "warfare_archers_on_walls",
+    "file": "warfare_archers_on_walls.jpg",
+    "category": "warfare",
+    "source_sheet": "a_cinematic_fantasy_medieval_battle_montage_collag.png",
+    "panel": 3,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу battle через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "warfare_siege_engines",
+    "file": "warfare_siege_engines.jpg",
+    "category": "warfare",
+    "source_sheet": "a_cinematic_fantasy_medieval_battle_montage_collag.png",
+    "panel": 4,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу battle через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "warfare_gate_assault",
+    "file": "warfare_gate_assault.jpg",
+    "category": "warfare",
+    "source_sheet": "a_cinematic_fantasy_medieval_battle_montage_collag.png",
+    "panel": 5,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "warfare_battle_victory",
+    "file": "warfare_battle_victory.jpg",
+    "category": "warfare",
+    "source_sheet": "a_cinematic_fantasy_medieval_battle_montage_collag.png",
+    "panel": 6,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу battle через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "warfare_variants_battlefield_overview",
+    "file": "warfare_variants_battlefield_overview.jpg",
+    "category": "warfare_variants",
+    "source_sheet": "a_cinematic_fantasy_medieval_collage_arranged_in.png",
+    "panel": 1,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу battle через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "warfare_variants_castle_defense",
+    "file": "warfare_variants_castle_defense.jpg",
+    "category": "warfare_variants",
+    "source_sheet": "a_cinematic_fantasy_medieval_collage_arranged_in.png",
+    "panel": 2,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу battle через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "warfare_variants_army_advance",
+    "file": "warfare_variants_army_advance.jpg",
+    "category": "warfare_variants",
+    "source_sheet": "a_cinematic_fantasy_medieval_collage_arranged_in.png",
+    "panel": 3,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу battle через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "warfare_variants_siege_tower",
+    "file": "warfare_variants_siege_tower.jpg",
+    "category": "warfare_variants",
+    "source_sheet": "a_cinematic_fantasy_medieval_collage_arranged_in.png",
+    "panel": 4,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу battle через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "warfare_variants_wall_breach",
+    "file": "warfare_variants_wall_breach.jpg",
+    "category": "warfare_variants",
+    "source_sheet": "a_cinematic_fantasy_medieval_collage_arranged_in.png",
+    "panel": 5,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу battle через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "warfare_variants_aftermath",
+    "file": "warfare_variants_aftermath.jpg",
+    "category": "warfare_variants",
+    "source_sheet": "a_cinematic_fantasy_medieval_collage_arranged_in.png",
+    "panel": 6,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу battle через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "story_events_royal_council_scene",
+    "file": "story_events_royal_council_scene.jpg",
+    "category": "story_events",
+    "source_sheet": "a_cinematic_fantasy_medieval_story_montage_in_a_3x.png",
+    "panel": 1,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "story_events_secret_letter",
+    "file": "story_events_secret_letter.jpg",
+    "category": "story_events",
+    "source_sheet": "a_cinematic_fantasy_medieval_story_montage_in_a_3x.png",
+    "panel": 2,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "story_events_castle_escape",
+    "file": "story_events_castle_escape.jpg",
+    "category": "story_events",
+    "source_sheet": "a_cinematic_fantasy_medieval_story_montage_in_a_3x.png",
+    "panel": 3,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "story_events_heir_rescue",
+    "file": "story_events_heir_rescue.jpg",
+    "category": "story_events",
+    "source_sheet": "a_cinematic_fantasy_medieval_story_montage_in_a_3x.png",
+    "panel": 4,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "story_events_city_siege",
+    "file": "story_events_city_siege.jpg",
+    "category": "story_events",
+    "source_sheet": "a_cinematic_fantasy_medieval_story_montage_in_a_3x.png",
+    "panel": 5,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу story через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "story_events_final_battle_meeting",
+    "file": "story_events_final_battle_meeting.jpg",
+    "category": "story_events",
+    "source_sheet": "a_cinematic_fantasy_medieval_story_montage_in_a_3x.png",
+    "panel": 6,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "warfare_variants_2_army_camp",
+    "file": "warfare_variants_2_army_camp.jpg",
+    "category": "warfare_variants_2",
+    "source_sheet": "a_cinematic_high_detail_collage_thumbnail_sheet_i.png",
+    "panel": 1,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "warfare_variants_2_battle_planning",
+    "file": "warfare_variants_2_battle_planning.jpg",
+    "category": "warfare_variants_2",
+    "source_sheet": "a_cinematic_high_detail_collage_thumbnail_sheet_i.png",
+    "panel": 2,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу army через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "warfare_variants_2_knight_duel",
+    "file": "warfare_variants_2_knight_duel.jpg",
+    "category": "warfare_variants_2",
+    "source_sheet": "a_cinematic_high_detail_collage_thumbnail_sheet_i.png",
+    "panel": 3,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу army через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "warfare_variants_2_siege_line",
+    "file": "warfare_variants_2_siege_line.jpg",
+    "category": "warfare_variants_2",
+    "source_sheet": "a_cinematic_high_detail_collage_thumbnail_sheet_i.png",
+    "panel": 4,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу army через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "warfare_variants_2_city_defense",
+    "file": "warfare_variants_2_city_defense.jpg",
+    "category": "warfare_variants_2",
+    "source_sheet": "a_cinematic_high_detail_collage_thumbnail_sheet_i.png",
+    "panel": 5,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу army через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "warfare_variants_2_victory_scene",
+    "file": "warfare_variants_2_victory_scene.jpg",
+    "category": "warfare_variants_2",
+    "source_sheet": "a_cinematic_high_detail_collage_thumbnail_sheet_i.png",
+    "panel": 6,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "character_concepts_2_royal_ruler",
+    "file": "character_concepts_2_royal_ruler.jpg",
+    "category": "character_concepts_2",
+    "source_sheet": "a_cinematic_high_detail_fantasy_medieval_characte.png",
+    "panel": 1,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу hero через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "character_concepts_2_royal_woman",
+    "file": "character_concepts_2_royal_woman.jpg",
+    "category": "character_concepts_2",
+    "source_sheet": "a_cinematic_high_detail_fantasy_medieval_characte.png",
+    "panel": 2,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу hero через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "character_concepts_2_young_noble",
+    "file": "character_concepts_2_young_noble.jpg",
+    "category": "character_concepts_2",
+    "source_sheet": "a_cinematic_high_detail_fantasy_medieval_characte.png",
+    "panel": 3,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу hero через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "character_concepts_2_lady_in_red",
+    "file": "character_concepts_2_lady_in_red.jpg",
+    "category": "character_concepts_2",
+    "source_sheet": "a_cinematic_high_detail_fantasy_medieval_characte.png",
+    "panel": 4,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу hero через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "character_concepts_2_armored_knight",
+    "file": "character_concepts_2_armored_knight.jpg",
+    "category": "character_concepts_2",
+    "source_sheet": "a_cinematic_high_detail_fantasy_medieval_characte.png",
+    "panel": 5,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу hero через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "character_concepts_2_mage",
+    "file": "character_concepts_2_mage.jpg",
+    "category": "character_concepts_2",
+    "source_sheet": "a_cinematic_high_detail_fantasy_medieval_characte.png",
+    "panel": 6,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу hero через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "character_scenes_garrett_scene",
+    "file": "character_scenes_garrett_scene.jpg",
+    "category": "character_scenes",
+    "source_sheet": "a_cinematic_high_detail_fantasy_medieval_collage.png",
+    "panel": 1,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "character_scenes_thomas_scene",
+    "file": "character_scenes_thomas_scene.jpg",
+    "category": "character_scenes",
+    "source_sheet": "a_cinematic_high_detail_fantasy_medieval_collage.png",
+    "panel": 2,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "character_scenes_reynar_scene",
+    "file": "character_scenes_reynar_scene.jpg",
+    "category": "character_scenes",
+    "source_sheet": "a_cinematic_high_detail_fantasy_medieval_collage.png",
+    "panel": 3,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "character_scenes_celesta_scene",
+    "file": "character_scenes_celesta_scene.jpg",
+    "category": "character_scenes",
+    "source_sheet": "a_cinematic_high_detail_fantasy_medieval_collage.png",
+    "panel": 4,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "character_scenes_mira_scene",
+    "file": "character_scenes_mira_scene.jpg",
+    "category": "character_scenes",
+    "source_sheet": "a_cinematic_high_detail_fantasy_medieval_collage.png",
+    "panel": 5,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "character_scenes_adrian_scene",
+    "file": "character_scenes_adrian_scene.jpg",
+    "category": "character_scenes",
+    "source_sheet": "a_cinematic_high_detail_fantasy_medieval_collage.png",
+    "panel": 6,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу people через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "story_scenes_2_court_audience",
+    "file": "story_scenes_2_court_audience.jpg",
+    "category": "story_scenes_2",
+    "source_sheet": "a_cinematic_high_detail_fantasy_medieval_story_co.png",
+    "panel": 1,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "story_scenes_2_council_meeting",
+    "file": "story_scenes_2_council_meeting.jpg",
+    "category": "story_scenes_2",
+    "source_sheet": "a_cinematic_high_detail_fantasy_medieval_story_co.png",
+    "panel": 2,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "story_scenes_2_market_encounter",
+    "file": "story_scenes_2_market_encounter.jpg",
+    "category": "story_scenes_2",
+    "source_sheet": "a_cinematic_high_detail_fantasy_medieval_story_co.png",
+    "panel": 3,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "story_scenes_2_night_conspiracy",
+    "file": "story_scenes_2_night_conspiracy.jpg",
+    "category": "story_scenes_2",
+    "source_sheet": "a_cinematic_high_detail_fantasy_medieval_story_co.png",
+    "panel": 4,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу story через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "story_scenes_2_tavern_scene",
+    "file": "story_scenes_2_tavern_scene.jpg",
+    "category": "story_scenes_2",
+    "source_sheet": "a_cinematic_high_detail_fantasy_medieval_story_co.png",
+    "panel": 5,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "story_scenes_2_city_panorama",
+    "file": "story_scenes_2_city_panorama.jpg",
+    "category": "story_scenes_2",
+    "source_sheet": "a_cinematic_high_detail_fantasy_medieval_story_co.png",
+    "panel": 6,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу story через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "daily_life_royal_feast",
+    "file": "daily_life_royal_feast.jpg",
+    "category": "daily_life",
+    "source_sheet": "a_cinematic_high_detail_medieval_fantasy_collage.png",
+    "panel": 1,
+    "source_dimensions": [
+      557,
+      470
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "daily_life_market_day",
+    "file": "daily_life_market_day.jpg",
+    "category": "daily_life",
+    "source_sheet": "a_cinematic_high_detail_medieval_fantasy_collage.png",
+    "panel": 2,
+    "source_dimensions": [
+      558,
+      470
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "daily_life_harvest_festival",
+    "file": "daily_life_harvest_festival.jpg",
+    "category": "daily_life",
+    "source_sheet": "a_cinematic_high_detail_medieval_fantasy_collage.png",
+    "panel": 3,
+    "source_dimensions": [
+      557,
+      470
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "daily_life_field_hospital",
+    "file": "daily_life_field_hospital.jpg",
+    "category": "daily_life",
+    "source_sheet": "a_cinematic_high_detail_medieval_fantasy_collage.png",
+    "panel": 4,
+    "source_dimensions": [
+      557,
+      471
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу life через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "daily_life_knight_tournament",
+    "file": "daily_life_knight_tournament.jpg",
+    "category": "daily_life",
+    "source_sheet": "a_cinematic_high_detail_medieval_fantasy_collage.png",
+    "panel": 5,
+    "source_dimensions": [
+      558,
+      471
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу life через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "daily_life_popular_uprising",
+    "file": "daily_life_popular_uprising.jpg",
+    "category": "daily_life",
+    "source_sheet": "a_cinematic_high_detail_medieval_fantasy_collage.png",
+    "panel": 6,
+    "source_dimensions": [
+      557,
+      471
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу life через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "castle_interiors_castle_corridor",
+    "file": "castle_interiors_castle_corridor.jpg",
+    "category": "castle_interiors",
+    "source_sheet": "a_cinematic_high_fantasy_medieval_game_concept_co.png",
+    "panel": 1,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу houses через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "castle_interiors_royal_library",
+    "file": "castle_interiors_royal_library.jpg",
+    "category": "castle_interiors",
+    "source_sheet": "a_cinematic_high_fantasy_medieval_game_concept_co.png",
+    "panel": 2,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "castle_interiors_armory_interior",
+    "file": "castle_interiors_armory_interior.jpg",
+    "category": "castle_interiors",
+    "source_sheet": "a_cinematic_high_fantasy_medieval_game_concept_co.png",
+    "panel": 3,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "castle_interiors_throne_room",
+    "file": "castle_interiors_throne_room.jpg",
+    "category": "castle_interiors",
+    "source_sheet": "a_cinematic_high_fantasy_medieval_game_concept_co.png",
+    "panel": 4,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "castle_interiors_private_chambers",
+    "file": "castle_interiors_private_chambers.jpg",
+    "category": "castle_interiors",
+    "source_sheet": "a_cinematic_high_fantasy_medieval_game_concept_co.png",
+    "panel": 5,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу houses через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "castle_interiors_secret_room",
+    "file": "castle_interiors_secret_room.jpg",
+    "category": "castle_interiors",
+    "source_sheet": "a_cinematic_high_fantasy_medieval_game_concept_co.png",
+    "panel": 6,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу houses через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "historical_sites_grand_cathedral",
+    "file": "historical_sites_grand_cathedral.jpg",
+    "category": "historical_sites",
+    "source_sheet": "a_cinematic_highly_detailed_medieval_fantasy_coll.png",
+    "panel": 1,
+    "source_dimensions": [
+      557,
+      470
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу frontier через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "historical_sites_old_monastery",
+    "file": "historical_sites_old_monastery.jpg",
+    "category": "historical_sites",
+    "source_sheet": "a_cinematic_highly_detailed_medieval_fantasy_coll.png",
+    "panel": 2,
+    "source_dimensions": [
+      558,
+      470
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу frontier через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "historical_sites_royal_crypt",
+    "file": "historical_sites_royal_crypt.jpg",
+    "category": "historical_sites",
+    "source_sheet": "a_cinematic_highly_detailed_medieval_fantasy_coll.png",
+    "panel": 3,
+    "source_dimensions": [
+      557,
+      470
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу frontier через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "historical_sites_ancient_temple",
+    "file": "historical_sites_ancient_temple.jpg",
+    "category": "historical_sites",
+    "source_sheet": "a_cinematic_highly_detailed_medieval_fantasy_coll.png",
+    "panel": 4,
+    "source_dimensions": [
+      557,
+      471
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу frontier через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "historical_sites_roadside_chapel",
+    "file": "historical_sites_roadside_chapel.jpg",
+    "category": "historical_sites",
+    "source_sheet": "a_cinematic_highly_detailed_medieval_fantasy_coll.png",
+    "panel": 5,
+    "source_dimensions": [
+      558,
+      471
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу frontier через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "historical_sites_ruined_shrine",
+    "file": "historical_sites_ruined_shrine.jpg",
+    "category": "historical_sites",
+    "source_sheet": "a_cinematic_highly_detailed_medieval_fantasy_coll.png",
+    "panel": 6,
+    "source_dimensions": [
+      557,
+      471
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу frontier через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "nature_locations_royal_garden",
+    "file": "nature_locations_royal_garden.jpg",
+    "category": "nature_locations",
+    "source_sheet": "a_composite_fantasy_landscape_montage_in_a_grid_of.png",
+    "panel": 1,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "nature_locations_dense_forest",
+    "file": "nature_locations_dense_forest.jpg",
+    "category": "nature_locations",
+    "source_sheet": "a_composite_fantasy_landscape_montage_in_a_grid_of.png",
+    "panel": 2,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "nature_locations_river_crossing",
+    "file": "nature_locations_river_crossing.jpg",
+    "category": "nature_locations",
+    "source_sheet": "a_composite_fantasy_landscape_montage_in_a_grid_of.png",
+    "panel": 3,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "nature_locations_waterfall",
+    "file": "nature_locations_waterfall.jpg",
+    "category": "nature_locations",
+    "source_sheet": "a_composite_fantasy_landscape_montage_in_a_grid_of.png",
+    "panel": 4,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу world через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "nature_locations_snowy_valley",
+    "file": "nature_locations_snowy_valley.jpg",
+    "category": "nature_locations",
+    "source_sheet": "a_composite_fantasy_landscape_montage_in_a_grid_of.png",
+    "panel": 5,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу world через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "nature_locations_mountain_lake",
+    "file": "nature_locations_mountain_lake.jpg",
+    "category": "nature_locations",
+    "source_sheet": "a_composite_fantasy_landscape_montage_in_a_grid_of.png",
+    "panel": 6,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу world через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "city_locations_noble_quarter",
+    "file": "city_locations_noble_quarter.jpg",
+    "category": "city_locations",
+    "source_sheet": "a_detailed_cinematic_medieval_fantasy_collage_in_a.png",
+    "panel": 1,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу economy через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "city_locations_poor_district",
+    "file": "city_locations_poor_district.jpg",
+    "category": "city_locations",
+    "source_sheet": "a_detailed_cinematic_medieval_fantasy_collage_in_a.png",
+    "panel": 2,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "city_locations_harbor_tavern",
+    "file": "city_locations_harbor_tavern.jpg",
+    "category": "city_locations",
+    "source_sheet": "a_detailed_cinematic_medieval_fantasy_collage_in_a.png",
+    "panel": 3,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "city_locations_city_square",
+    "file": "city_locations_city_square.jpg",
+    "category": "city_locations",
+    "source_sheet": "a_detailed_cinematic_medieval_fantasy_collage_in_a.png",
+    "panel": 4,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу economy через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "city_locations_craft_workshop",
+    "file": "city_locations_craft_workshop.jpg",
+    "category": "city_locations",
+    "source_sheet": "a_detailed_cinematic_medieval_fantasy_collage_in_a.png",
+    "panel": 5,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "city_locations_night_alley",
+    "file": "city_locations_night_alley.jpg",
+    "category": "city_locations",
+    "source_sheet": "a_detailed_cinematic_medieval_fantasy_collage_in_a.png",
+    "panel": 6,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу economy через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "landscape_locations_winter_castle",
+    "file": "landscape_locations_winter_castle.jpg",
+    "category": "landscape_locations",
+    "source_sheet": "a_detailed_collage_of_fantasy_medieval_landscapes.png",
+    "panel": 1,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "landscape_locations_autumn_forest",
+    "file": "landscape_locations_autumn_forest.jpg",
+    "category": "landscape_locations",
+    "source_sheet": "a_detailed_collage_of_fantasy_medieval_landscapes.png",
+    "panel": 2,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу provinces через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "landscape_locations_ancient_ruins",
+    "file": "landscape_locations_ancient_ruins.jpg",
+    "category": "landscape_locations",
+    "source_sheet": "a_detailed_collage_of_fantasy_medieval_landscapes.png",
+    "panel": 3,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу provinces через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "landscape_locations_mountain_monastery",
+    "file": "landscape_locations_mountain_monastery.jpg",
+    "category": "landscape_locations",
+    "source_sheet": "a_detailed_collage_of_fantasy_medieval_landscapes.png",
+    "panel": 4,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу provinces через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "landscape_locations_mountain_pass",
+    "file": "landscape_locations_mountain_pass.jpg",
+    "category": "landscape_locations",
+    "source_sheet": "a_detailed_collage_of_fantasy_medieval_landscapes.png",
+    "panel": 5,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "landscape_locations_abandoned_fortress",
+    "file": "landscape_locations_abandoned_fortress.jpg",
+    "category": "landscape_locations",
+    "source_sheet": "a_detailed_collage_of_fantasy_medieval_landscapes.png",
+    "panel": 6,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "story_and_people_royal_court",
+    "file": "story_and_people_royal_court.jpg",
+    "category": "story_and_people",
+    "source_sheet": "a_high_detail_cinematic_fantasy_medieval_collage.png",
+    "panel": 1,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу people через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "story_and_people_private_talk",
+    "file": "story_and_people_private_talk.jpg",
+    "category": "story_and_people",
+    "source_sheet": "a_high_detail_cinematic_fantasy_medieval_collage.png",
+    "panel": 2,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу people через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "story_and_people_city_music",
+    "file": "story_and_people_city_music.jpg",
+    "category": "story_and_people",
+    "source_sheet": "a_high_detail_cinematic_fantasy_medieval_collage.png",
+    "panel": 3,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "story_and_people_street_scene",
+    "file": "story_and_people_street_scene.jpg",
+    "category": "story_and_people",
+    "source_sheet": "a_high_detail_cinematic_fantasy_medieval_collage.png",
+    "panel": 4,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу people через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "story_and_people_political_encounter",
+    "file": "story_and_people_political_encounter.jpg",
+    "category": "story_and_people",
+    "source_sheet": "a_high_detail_cinematic_fantasy_medieval_collage.png",
+    "panel": 5,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу people через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "story_and_people_night_city",
+    "file": "story_and_people_night_city.jpg",
+    "category": "story_and_people",
+    "source_sheet": "a_high_detail_cinematic_fantasy_medieval_collage.png",
+    "panel": 6,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу people через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "travel_locations_harbor_approach",
+    "file": "travel_locations_harbor_approach.jpg",
+    "category": "travel_locations",
+    "source_sheet": "a_large_cinematic_collage_of_high_fantasy_medieval.png",
+    "panel": 1,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "travel_locations_village_road",
+    "file": "travel_locations_village_road.jpg",
+    "category": "travel_locations",
+    "source_sheet": "a_large_cinematic_collage_of_high_fantasy_medieval.png",
+    "panel": 2,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "travel_locations_forest_path",
+    "file": "travel_locations_forest_path.jpg",
+    "category": "travel_locations",
+    "source_sheet": "a_large_cinematic_collage_of_high_fantasy_medieval.png",
+    "panel": 3,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "travel_locations_castle_gate",
+    "file": "travel_locations_castle_gate.jpg",
+    "category": "travel_locations",
+    "source_sheet": "a_large_cinematic_collage_of_high_fantasy_medieval.png",
+    "panel": 4,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "travel_locations_mountain_route",
+    "file": "travel_locations_mountain_route.jpg",
+    "category": "travel_locations",
+    "source_sheet": "a_large_cinematic_collage_of_high_fantasy_medieval.png",
+    "panel": 5,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "travel_locations_river_village",
+    "file": "travel_locations_river_village.jpg",
+    "category": "travel_locations",
+    "source_sheet": "a_large_cinematic_collage_of_high_fantasy_medieval.png",
+    "panel": 6,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "religious_sites_variants_cathedral_exterior",
+    "file": "religious_sites_variants_cathedral_exterior.jpg",
+    "category": "religious_sites_variants",
+    "source_sheet": "a_large_composite_collage_of_six_richly_detailed_f.png",
+    "panel": 1,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу frontier через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "religious_sites_variants_abbey_courtyard",
+    "file": "religious_sites_variants_abbey_courtyard.jpg",
+    "category": "religious_sites_variants",
+    "source_sheet": "a_large_composite_collage_of_six_richly_detailed_f.png",
+    "panel": 2,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу frontier через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "religious_sites_variants_royal_tomb",
+    "file": "religious_sites_variants_royal_tomb.jpg",
+    "category": "religious_sites_variants",
+    "source_sheet": "a_large_composite_collage_of_six_richly_detailed_f.png",
+    "panel": 3,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу frontier через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "religious_sites_variants_temple_ruins",
+    "file": "religious_sites_variants_temple_ruins.jpg",
+    "category": "religious_sites_variants",
+    "source_sheet": "a_large_composite_collage_of_six_richly_detailed_f.png",
+    "panel": 4,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу frontier через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "religious_sites_variants_chapel_path",
+    "file": "religious_sites_variants_chapel_path.jpg",
+    "category": "religious_sites_variants",
+    "source_sheet": "a_large_composite_collage_of_six_richly_detailed_f.png",
+    "panel": 5,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "religious_sites_variants_sanctuary_ruins",
+    "file": "religious_sites_variants_sanctuary_ruins.jpg",
+    "category": "religious_sites_variants",
+    "source_sheet": "a_large_composite_collage_of_six_richly_detailed_f.png",
+    "panel": 6,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу frontier через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "dramatic_events_coronation",
+    "file": "dramatic_events_coronation.jpg",
+    "category": "dramatic_events",
+    "source_sheet": "a_large_composite_image_in_a_cinematic_medieval_fa.png",
+    "panel": 1,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу council через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "dramatic_events_royal_wedding",
+    "file": "dramatic_events_royal_wedding.jpg",
+    "category": "dramatic_events",
+    "source_sheet": "a_large_composite_image_in_a_cinematic_medieval_fa.png",
+    "panel": 2,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу council через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "dramatic_events_peace_treaty",
+    "file": "dramatic_events_peace_treaty.jpg",
+    "category": "dramatic_events",
+    "source_sheet": "a_large_composite_image_in_a_cinematic_medieval_fa.png",
+    "panel": 3,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу council через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "dramatic_events_betrayal_reveal",
+    "file": "dramatic_events_betrayal_reveal.jpg",
+    "category": "dramatic_events",
+    "source_sheet": "a_large_composite_image_in_a_cinematic_medieval_fa.png",
+    "panel": 4,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу council через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "dramatic_events_noble_trial",
+    "file": "dramatic_events_noble_trial.jpg",
+    "category": "dramatic_events",
+    "source_sheet": "a_large_composite_image_in_a_cinematic_medieval_fa.png",
+    "panel": 5,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу council через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "dramatic_events_war_declaration",
+    "file": "dramatic_events_war_declaration.jpg",
+    "category": "dramatic_events",
+    "source_sheet": "a_large_composite_image_in_a_cinematic_medieval_fa.png",
+    "panel": 6,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "great_houses_concepts_kingdom_overview",
+    "file": "great_houses_concepts_kingdom_overview.jpg",
+    "category": "great_houses_concepts",
+    "source_sheet": "a_richly_detailed_fantasy_medieval_montage_in_a_gr.png",
+    "panel": 1,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "great_houses_concepts_house_fortress_one",
+    "file": "great_houses_concepts_house_fortress_one.jpg",
+    "category": "great_houses_concepts",
+    "source_sheet": "a_richly_detailed_fantasy_medieval_montage_in_a_gr.png",
+    "panel": 2,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "great_houses_concepts_house_fortress_two",
+    "file": "great_houses_concepts_house_fortress_two.jpg",
+    "category": "great_houses_concepts",
+    "source_sheet": "a_richly_detailed_fantasy_medieval_montage_in_a_gr.png",
+    "panel": 3,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу houses через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "great_houses_concepts_house_fortress_three",
+    "file": "great_houses_concepts_house_fortress_three.jpg",
+    "category": "great_houses_concepts",
+    "source_sheet": "a_richly_detailed_fantasy_medieval_montage_in_a_gr.png",
+    "panel": 4,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу houses через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "great_houses_concepts_great_houses_hall",
+    "file": "great_houses_concepts_great_houses_hall.jpg",
+    "category": "great_houses_concepts",
+    "source_sheet": "a_richly_detailed_fantasy_medieval_montage_in_a_gr.png",
+    "panel": 5,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "great_houses_concepts_mountain_keep",
+    "file": "great_houses_concepts_mountain_keep.jpg",
+    "category": "great_houses_concepts",
+    "source_sheet": "a_richly_detailed_fantasy_medieval_montage_in_a_gr.png",
+    "panel": 6,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "castle_interiors_2_royal_bedchamber",
+    "file": "castle_interiors_2_royal_bedchamber.jpg",
+    "category": "castle_interiors_2",
+    "source_sheet": "a_single_composite_image_collage_in_a_fantasy_medi.png",
+    "panel": 1,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу houses через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "castle_interiors_2_rulers_study",
+    "file": "castle_interiors_2_rulers_study.jpg",
+    "category": "castle_interiors_2",
+    "source_sheet": "a_single_composite_image_collage_in_a_fantasy_medi.png",
+    "panel": 2,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу houses через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "castle_interiors_2_castle_armory",
+    "file": "castle_interiors_2_castle_armory.jpg",
+    "category": "castle_interiors_2",
+    "source_sheet": "a_single_composite_image_collage_in_a_fantasy_medi.png",
+    "panel": 3,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "castle_interiors_2_reception_hall",
+    "file": "castle_interiors_2_reception_hall.jpg",
+    "category": "castle_interiors_2",
+    "source_sheet": "a_single_composite_image_collage_in_a_fantasy_medi.png",
+    "panel": 4,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу houses через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "castle_interiors_2_heirs_quarters",
+    "file": "castle_interiors_2_heirs_quarters.jpg",
+    "category": "castle_interiors_2",
+    "source_sheet": "a_single_composite_image_collage_in_a_fantasy_medi.png",
+    "panel": 5,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу houses через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "castle_interiors_2_arcane_chamber",
+    "file": "castle_interiors_2_arcane_chamber.jpg",
+    "category": "castle_interiors_2",
+    "source_sheet": "a_single_composite_image_collage_in_a_fantasy_medi.png",
+    "panel": 6,
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу houses через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "capital_panorama_capital_city_panorama",
+    "file": "capital_panorama_capital_city_panorama.jpg",
+    "category": "capital_panorama",
+    "source_sheet": "a_wide_cinematic_highly_detailed_medieval_fantas.png",
+    "panel": 1,
+    "source_dimensions": [
+      1672,
+      941
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "capital_panorama_variants_estervale_sunset_panorama",
+    "file": "capital_panorama_variants_estervale_sunset_panorama.jpg",
+    "category": "capital_panorama_variants",
+    "source_sheet": "a_cinematic_medieval_fantasy_landscape_at_sunset.png",
+    "panel": 1,
+    "source_dimensions": [
+      1672,
+      941
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "main_cast_concept_garrett_portrait_concept",
+    "file": "main_cast_concept_garrett_portrait_concept.jpg",
+    "category": "main_cast_concept",
+    "source_sheet": "a_polished_cinematic_high_detail_character_portr.png",
+    "panel": 1,
+    "source_dimensions": [
+      437,
+      600
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу hero через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "main_cast_concept_thomas_portrait_concept",
+    "file": "main_cast_concept_thomas_portrait_concept.jpg",
+    "category": "main_cast_concept",
+    "source_sheet": "a_polished_cinematic_high_detail_character_portr.png",
+    "panel": 2,
+    "source_dimensions": [
+      438,
+      600
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу hero через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "main_cast_concept_reynar_portrait_concept",
+    "file": "main_cast_concept_reynar_portrait_concept.jpg",
+    "category": "main_cast_concept",
+    "source_sheet": "a_polished_cinematic_high_detail_character_portr.png",
+    "panel": 3,
+    "source_dimensions": [
+      437,
+      600
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу hero через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "main_cast_concept_celesta_portrait_concept",
+    "file": "main_cast_concept_celesta_portrait_concept.jpg",
+    "category": "main_cast_concept",
+    "source_sheet": "a_polished_cinematic_high_detail_character_portr.png",
+    "panel": 4,
+    "source_dimensions": [
+      437,
+      599
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу hero через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "main_cast_concept_mira_portrait_concept",
+    "file": "main_cast_concept_mira_portrait_concept.jpg",
+    "category": "main_cast_concept",
+    "source_sheet": "a_polished_cinematic_high_detail_character_portr.png",
+    "panel": 5,
+    "source_dimensions": [
+      438,
+      599
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу hero через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "main_cast_concept_adrian_portrait_concept",
+    "file": "main_cast_concept_adrian_portrait_concept.jpg",
+    "category": "main_cast_concept",
+    "source_sheet": "a_polished_cinematic_high_detail_character_portr.png",
+    "panel": 6,
+    "source_dimensions": [
+      437,
+      599
+    ],
+    "status": "assigned_to_game_section_or_story_scene",
+    "assignment_note": "Подключено к разделу hero через тематический пул иллюстраций; выбор зависит от игрового дня, главы и этапа задания."
+  },
+  {
+    "resource_name": "main_cast_adrian_portrait_concept",
+    "file": "main_cast_adrian_portrait_concept.png",
+    "category": "main_cast_concept",
+    "source_sheet": "a_polished_cinematic_high_detail_character_portr.png",
+    "panel": null,
+    "source_dimensions": [
+      435,
+      597
+    ],
+    "status": "assigned_to_game_section_or_story_scene"
+  },
+  {
+    "resource_name": "main_cast_celesta_portrait_concept",
+    "file": "main_cast_celesta_portrait_concept.png",
+    "category": "main_cast_concept",
+    "source_sheet": "a_polished_cinematic_high_detail_character_portr.png",
+    "panel": null,
+    "source_dimensions": [
+      435,
+      597
+    ],
+    "status": "portrait_review_gallery_only_not_canon",
+    "assignment_note": "Добавлен в галерею проверки портретов раздела «Личное дело»; показывается как кандидат для визуального сравнения, но не заменяет канонический portrait_*.jpg до подтверждения."
+  },
+  {
+    "resource_name": "main_cast_garrett_portrait_concept",
+    "file": "main_cast_garrett_portrait_concept.png",
+    "category": "main_cast_concept",
+    "source_sheet": "a_polished_cinematic_high_detail_character_portr.png",
+    "panel": null,
+    "source_dimensions": [
+      435,
+      598
+    ],
+    "status": "portrait_review_gallery_only_not_canon",
+    "assignment_note": "Добавлен в галерею проверки портретов раздела «Личное дело»; показывается как кандидат для визуального сравнения, но не заменяет канонический portrait_*.jpg до подтверждения."
+  },
+  {
+    "resource_name": "main_cast_mira_portrait_concept",
+    "file": "main_cast_mira_portrait_concept.png",
+    "category": "main_cast_concept",
+    "source_sheet": "a_polished_cinematic_high_detail_character_portr.png",
+    "panel": null,
+    "source_dimensions": [
+      434,
+      597
+    ],
+    "status": "portrait_review_gallery_only_not_canon",
+    "assignment_note": "Добавлен в галерею проверки портретов раздела «Личное дело»; показывается как кандидат для визуального сравнения, но не заменяет канонический portrait_*.jpg до подтверждения."
+  },
+  {
+    "resource_name": "main_cast_reynar_portrait_concept",
+    "file": "main_cast_reynar_portrait_concept.png",
+    "category": "main_cast_concept",
+    "source_sheet": "a_polished_cinematic_high_detail_character_portr.png",
+    "panel": null,
+    "source_dimensions": [
+      435,
+      598
+    ],
+    "status": "portrait_review_gallery_only_not_canon",
+    "assignment_note": "Добавлен в галерею проверки портретов раздела «Личное дело»; показывается как кандидат для визуального сравнения, но не заменяет канонический portrait_*.jpg до подтверждения."
+  },
+  {
+    "resource_name": "main_cast_thomas_portrait_concept",
+    "file": "main_cast_thomas_portrait_concept.png",
+    "category": "main_cast_concept",
+    "source_sheet": "a_polished_cinematic_high_detail_character_portr.png",
+    "panel": null,
+    "source_dimensions": [
+      434,
+      598
+    ],
+    "status": "portrait_review_gallery_only_not_canon",
+    "assignment_note": "Добавлен в галерею проверки портретов раздела «Личное дело»; показывается как кандидат для визуального сравнения, но не заменяет канонический portrait_*.jpg до подтверждения."
+  }
+]

@@ -1,0 +1,27 @@
+package com.ashes.crown
+
+fun main() {
+    check(CompanionTeamEventManager.events.size == 6)
+    check(CompanionTeamEventManager.events.map { it.id }.toSet().size == 6)
+    check(CompanionTeamEventManager.events.map { it.pair }.toSet().size == 6)
+    val event = CompanionTeamEventManager.events.first()
+    check(!CompanionTeamEventManager.isUnlocked(event, 9, 10, 10))
+    check(!CompanionTeamEventManager.isUnlocked(event, 10, 4, 10))
+    check(CompanionTeamEventManager.isUnlocked(event, 10, 5, 5))
+    val cooperative = CompanionTeamEventManager.resolve(event, 98, 99, 99, CompanionTeamEventChoice.COOPERATE)
+    check(cooperative.pairAffinityAfter == 100)
+    check(cooperative.firstHeroBondAfter == 100 && cooperative.secondHeroBondAfter == 100)
+    val compromise = CompanionTeamEventManager.resolve(event, 10, 10, 10, CompanionTeamEventChoice.COMPROMISE)
+    check(compromise.pairAffinityAfter == 12)
+    check(compromise.firstHeroBondAfter == 12 && compromise.secondHeroBondAfter == 12)
+    val mask = CompanionTeamEventManager.markCompleted(0, event.id)
+    check(CompanionTeamEventManager.isCompleted(mask, event.id))
+    check(!CompanionTeamEventManager.isCompleted(mask, 1))
+    check(CompanionTeamEventManager.markCompleted(mask, event.id) == mask)
+    check(runCatching { CompanionTeamEventManager.markCompleted(mask, 99) }.isFailure)
+    check(CompanionTeamEventManager.ALL_EVENTS_MASK == 63)
+    val overflowTeam = CompanionTeamEventManager.resolve(event, Int.MAX_VALUE, Int.MAX_VALUE, Int.MAX_VALUE, CompanionTeamEventChoice.COOPERATE)
+    check(overflowTeam.pairAffinityAfter == 100)
+    check(overflowTeam.firstHeroBondAfter == 100 && overflowTeam.secondHeroBondAfter == 100)
+    println("Companion team scenes, unlock requirements, cooperative outcomes, bond boundaries and overflow-safe completion passed")
+}

@@ -1,0 +1,2 @@
+Alpha 4 visual asset catalog: docs/visual_assets/alpha4/README_ASSETS.txt and docs/visual_assets/alpha4/ASSET_CATALOG.json.
+The 146 drawable images are stored once in app/src/main/res/drawable-nodpi/ under stable Android resource names. Duplicate byte-identical staging copies were removed from the nested game_art subdirectory; the catalog/provenance documentation is retained under docs/visual_assets/alpha4/.

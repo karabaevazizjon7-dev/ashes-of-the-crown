@@ -1,0 +1,26 @@
+# Gradle / Android build outputs
+.gradle/
+**/build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# IDE files
+.idea/
+*.iml
+.DS_Store
+
+# Local logs and temporary archives
+*.log
+*.tmp
+
+# Android signing secrets
+*.jks
+*.keystore
+keystore.properties
+
+# Credentials and local secrets
+.env
+.env.*
+secrets.properties

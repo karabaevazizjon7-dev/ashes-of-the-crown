@@ -1,0 +1,95 @@
+name: Android compile verification
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main, master ]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: android-compile-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  compile-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout Android project
+        uses: actions/checkout@v4
+
+      - name: Verify project layout
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f settings.gradle.kts
+          test -f build.gradle.kts
+          test -f app/build.gradle.kts
+          test -f app/src/main/AndroidManifest.xml
+          test -d app/src/main/java/com/ashes/crown
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Python for project audits
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install Android platform and build tools
+        run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
+
+      - name: Set up Gradle 8.9
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+
+      - name: Install Kotlin compiler for platform-independent tests
+        shell: bash
+        run: |
+          set -euo pipefail
+          KOTLIN_VERSION=2.0.21
+          curl --fail --location --retry 3 --retry-delay 2 \
+            "https://github.com/JetBrains/kotlin/releases/download/v${KOTLIN_VERSION}/kotlin-compiler-${KOTLIN_VERSION}.zip" \
+            --output "$RUNNER_TEMP/kotlin-compiler.zip"
+          unzip -q "$RUNNER_TEMP/kotlin-compiler.zip" -d "$RUNNER_TEMP/kotlin"
+          echo "$RUNNER_TEMP/kotlin/kotlinc/bin" >> "$GITHUB_PATH"
+
+      - name: Run complete source and Android resource audit
+        run: python -u tools/V127_ANDROID_RELEASE_AUDIT.py
+
+      - name: Run platform-independent game domain tests
+        timeout-minutes: 35
+        run: python tools/PART3_DOMAIN_TESTS.py
+
+      - name: Run historical release gates
+        run: |
+          python -u tools/V102_CI_PIPELINE_AUDIT.py
+          python -u tools/V120_RELEASE_READINESS_AUDIT.py
+          python -u tools/V123_CI_DOMAIN_TEST_AUDIT.py
+          python -u tools/V124_SAVE_RECOVERY_AUDIT.py
+          python -u tools/V125_CAMPAIGN_LOOP_AUDIT.py
+          python -u tools/V126_LONG_CAMPAIGN_AUDIT.py
+
+      # Compile/lint only. APK packaging is deferred until the final release gate
+      # and separate final release authorization after device smoke testing.
+      - name: Compile Android Kotlin and run Android lint
+        timeout-minutes: 25
+        run: gradle --no-daemon --stacktrace --warning-mode all :app:compileDebugKotlin :app:lintDebug
+
+      - name: Preserve Android lint report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-lint-report
+          path: app/build/reports/lint-results*
+          if-no-files-found: ignore
+          retention-days: 14
