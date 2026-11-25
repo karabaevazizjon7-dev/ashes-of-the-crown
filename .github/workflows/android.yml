@@ -42,7 +42,7 @@ jobs:
           python-version: '3.12'
 
       - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4.0.4
 
       - name: Install Android platform and build tools
         run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
